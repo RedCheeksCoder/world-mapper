@@ -1,0 +1,13 @@
+.logo img {
+  height: 8.2rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo h4 {
+  font-size: 3rem;
+  color: white;
+}
