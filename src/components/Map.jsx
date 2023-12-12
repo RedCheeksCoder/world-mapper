@@ -12,13 +12,10 @@ import { useEffect, useState } from "react";
 import { useCities } from "../contexts/CitiesContext";
 import useGeolocation from "../hooks/UseGeolocation";
 import Button from "./Button";
+import UseURLPosition from "../hooks/UseURLPosition";
 
 function Map() {
-  const [searchParams, setSearchParams] = useSearchParams();
   const [mapPosition, setMapPosition] = useState([40, 0]);
-
-  const mapLat = searchParams.get("lat");
-  const mapLng = searchParams.get("lng");
 
   const { cities } = useCities();
 
@@ -27,6 +24,8 @@ function Map() {
     position: userPosition,
     getPosition,
   } = useGeolocation();
+
+  const [mapLat, mapLng] = UseURLPosition();
 
   useEffect(
     function () {
@@ -50,7 +49,7 @@ function Map() {
       )}
       <MapContainer
         center={mapPosition}
-        zoom={13}
+        zoom={17}
         scrollWheelZoom={true}
         className={styles.map}>
         <TileLayer
