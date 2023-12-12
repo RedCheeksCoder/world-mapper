@@ -8,9 +8,9 @@ export default function Homepage() {
       <PageNav />
       <section>
         <h1>
-          Embark on a journey around the globe
+          Embark on a journey around the globe.
           <br />
-          World Mapper captures your expeditions
+          World Mapper captures your expeditions.
         </h1>
         <h2>
           A comprehensive map that marks your travels through all the cities
