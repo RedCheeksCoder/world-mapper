@@ -13,28 +13,16 @@
       "id": 73930385
     },
     {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
+      "cityName": "Manila",
+      "country": "Philippines (the)",
+      "emoji": "🇵🇭",
+      "date": "2023-12-13T11:19:51.806Z",
+      "notes": "Sideline\n",
       "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
+        "lat": "14.51751584982899",
+        "lng": "121.05167627334596"
       },
-      "id": 98443197
-    },
-    {
-      "cityName": "Mas de Barberans",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2023-12-12T08:11:00.096Z",
-      "notes": "",
-      "position": {
-        "lat": "40.70979201243498",
-        "lng": "0.37971496582031256"
-      },
-      "id": 98443199
+      "id": 73930386
     }
   ]
 }
