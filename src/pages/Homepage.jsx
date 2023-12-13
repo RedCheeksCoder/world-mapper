@@ -18,7 +18,7 @@ export default function Homepage() {
           Preserve your memorable adventures and let your friends marvel at your
           worldwide wanderings.
         </h2>
-        <Link to={"/app"} className="cta">
+        <Link to={"/login"} className="cta">
           Start Mapping now
         </Link>
       </section>
