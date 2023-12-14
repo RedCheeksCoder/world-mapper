@@ -1,28 +1,40 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
+      "cityName": "Manila",
+      "country": "Philippines (the)",
+      "emoji": "🇵🇭",
+      "date": "2023-12-13T14:45:33.606Z",
+      "notes": "",
       "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
+        "lat": "14.514877720098836",
+        "lng": "121.04066848754884"
       },
-      "id": 73930385
+      "id": 73930387
     },
     {
       "cityName": "Manila",
       "country": "Philippines (the)",
       "emoji": "🇵🇭",
-      "date": "2023-12-13T11:19:51.806Z",
-      "notes": "Sideline\n",
+      "date": "2023-12-13T15:40:18.415Z",
+      "notes": "",
       "position": {
-        "lat": "14.51751584982899",
-        "lng": "121.05167627334596"
+        "lat": "14.540966816684424",
+        "lng": "121.0224723815918"
       },
-      "id": 73930386
+      "id": 73930388
+    },
+    {
+      "cityName": "San Antonio",
+      "country": "Philippines (the)",
+      "emoji": "🇵🇭",
+      "date": "2023-12-13T15:40:48.890Z",
+      "notes": "",
+      "position": {
+        "lat": "15.306041821392899",
+        "lng": "120.84789276123048"
+      },
+      "id": 73930389
     }
   ]
 }
